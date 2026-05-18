@@ -76,7 +76,7 @@ st.set_page_config(page_title="Booklet Imposer", page_icon="📖")
 st.title("📖 Booklet Imposer")
 st.write(
     "Upload a PDF and get it imposed for saddle-stitch booklet printing. "
-    "Print duplex, cut in half, nest, fold, and staple."
+    "Print duplex (double sided), cut in half, nest, fold, and staple."
 )
 
 uploaded = st.file_uploader("Upload a PDF", type="pdf")
@@ -104,3 +104,4 @@ if uploaded:
         "3. Nest the halves together (outer wraps inner)\n"
         "4. Fold in half, staple on the spine"
     )
+st.image("assembly_instructions.svg", caption="How to assemble your booklet")
