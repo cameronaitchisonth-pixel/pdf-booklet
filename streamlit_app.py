@@ -104,4 +104,4 @@ if uploaded:
         "3. Nest the halves together (outer wraps inner)\n"
         "4. Fold in half, staple on the spine"
     )
-st.image("assembly_instructions.svg", caption="How to assemble your booklet")
+st.image("assembly_instructions.svg", caption="How to assemble your booklet", use_container_width=True)
