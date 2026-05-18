@@ -1,18 +1,6 @@
-#!/usr/bin/env python3
-"""
-Impose any PDF into a half-size saddle-stitch booklet.
-
-Output: 2x2 grid pages, meant to be printed duplex (short edge flip).
-After printing, cut each sheet horizontally in half,
-nest the halves together, fold in half, and staple on the spine.
-
-Pages are padded to the nearest multiple of 8 with blanks.
-
-Usage: python booklet_impose.py input.pdf [output.pdf]
-"""
-
-import sys
+import io
 import math
+import streamlit as st
 from pypdf import PdfReader, PdfWriter, PageObject, Transformation
 
 
@@ -24,26 +12,17 @@ def compute_booklet_pairs(n):
     pairs = []
     lo, hi = 1, n
     while lo < hi:
-        pairs.append((hi, lo))          # front of leaf
-        pairs.append((lo + 1, hi - 1))  # back of leaf
+        pairs.append((hi, lo))
+        pairs.append((lo + 1, hi - 1))
         lo += 2
         hi -= 2
     return pairs
 
 
-def impose_booklet(input_path, output_path=None):
-    if output_path is None:
-        output_path = input_path.replace(".pdf", "-booklet.pdf")
-
-    reader = PdfReader(input_path)
+def impose_booklet(reader):
     n = len(reader.pages)
-
-    # Pad to multiple of 8 (4 for booklet, 8 for top/bottom halves)
     padded = math.ceil(n / 8) * 8
-    if padded != n:
-        print(f"Padding from {n} to {padded} pages (blanks at the end).")
 
-    # Page dimensions from first page
     first = reader.pages[0]
     pw = float(first.mediabox.width)
     ph = float(first.mediabox.height)
@@ -52,15 +31,12 @@ def impose_booklet(input_path, output_path=None):
     sheet_h = 2 * ph
 
     pairs = compute_booklet_pairs(padded)
-
     num_sheets = padded // 8
 
-    # Group pairs into leaves (each leaf = front pair + back pair)
     leaves = []
     for i in range(0, len(pairs), 2):
         leaves.append((pairs[i], pairs[i + 1]))
 
-    # Outer leaves on top half, inner leaves on bottom half
     top_leaves = leaves[:num_sheets]
     bottom_leaves = leaves[num_sheets:]
 
@@ -84,32 +60,47 @@ def impose_booklet(input_path, output_path=None):
         top_front, top_back = top_leaves[i]
         bot_front, bot_back = bottom_leaves[i]
 
-        # Front of physical sheet
         front = make_sheet(top_front[0], top_front[1], bot_front[0], bot_front[1])
         writer.add_page(front)
 
-        # Back of physical sheet
         back = make_sheet(top_back[0], top_back[1], bot_back[0], bot_back[1])
         writer.add_page(back)
 
-    with open(output_path, "wb") as f:
-        writer.write(f)
-
-    print(f"Booklet written to: {output_path}")
-    print(f"  {n} content pages -> {padded} padded -> {num_sheets} sheet(s) (print duplex)")
-    print()
-    print("Instructions:")
-    print("1. Print duplex (flip on SHORT edge)")
-    print("2. Cut each sheet horizontally in half")
-    print("3. Nest the halves together (outer wraps inner)")
-    print("4. Fold in half, staple on the spine")
+    output = io.BytesIO()
+    writer.write(output)
+    output.seek(0)
+    return output, n, padded, num_sheets
 
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print(f"Usage: {sys.argv[0]} input.pdf [output.pdf]")
-        sys.exit(1)
+st.set_page_config(page_title="Booklet Imposer", page_icon="📖")
+st.title("📖 Booklet Imposer")
+st.write(
+    "Upload a PDF and get it imposed for saddle-stitch booklet printing. "
+    "Print duplex, cut in half, nest, fold, and staple."
+)
 
-    input_path = sys.argv[1]
-    output_path = sys.argv[2] if len(sys.argv) > 2 else None
-    impose_booklet(input_path, output_path)
+uploaded = st.file_uploader("Upload a PDF", type="pdf")
+
+if uploaded:
+    reader = PdfReader(io.BytesIO(uploaded.read()))
+    result, n, padded, num_sheets = impose_booklet(reader)
+
+    st.success(f"{n} pages → {padded} padded → {num_sheets} sheet(s) to print duplex")
+
+    if padded != n:
+        st.info(f"{padded - n} blank page(s) added to fill the last sheet.")
+
+    st.download_button(
+        label="Download booklet PDF",
+        data=result,
+        file_name=uploaded.name.replace(".pdf", "-booklet.pdf"),
+        mime="application/pdf",
+    )
+
+    st.subheader("Instructions")
+    st.markdown(
+        "1. Print duplex (flip on **short edge**)\n"
+        "2. Cut each sheet horizontally in half\n"
+        "3. Nest the halves together (outer wraps inner)\n"
+        "4. Fold in half, staple on the spine"
+    )
