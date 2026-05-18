@@ -1,105 +1,190 @@
-<svg width="100%" viewBox="0 0 680 920" role="img" style="" xmlns="http://www.w3.org/2000/svg">
-<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Booklet assembly instructions</title>
-<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Step-by-step visual guide showing how to cut, stack, nest, fold, and staple printed sheets into a saddle-stitch booklet</desc>
+<svg width="100%" viewBox="0 0 680 1200" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, sans-serif; background: white;">
+<style>
+  .th { font-size: 14px; font-weight: 500; fill: #2C2C2A; }
+  .ts { font-size: 12px; font-weight: 400; fill: #5F5E5A; }
+  .teal-fill { fill: #E1F5EE; stroke: #0F6E56; }
+  .teal-text { fill: #085041; }
+  .purple-fill { fill: #EEEDFE; stroke: #534AB7; }
+  .purple-text { fill: #3C3489; }
+  .coral-fill { fill: #FAECE7; stroke: #993C1D; }
+  .coral-text { fill: #712B13; }
+  .pink-fill { fill: #FBEAF0; stroke: #993556; }
+  .pink-text { fill: #72243E; }
+  .gray-fill { fill: #F1EFE8; stroke: #5F5E5A; }
+  .gray-text { fill: #444441; }
+  .cut-line { stroke: #A32D2D; stroke-width: 1; stroke-dasharray: 4 3; }
+  .fold-line { stroke: #888780; stroke-width: 0.5; stroke-dasharray: 3 3; }
+  .arrow-line { stroke: #888780; stroke-width: 1; }
+  .leader { stroke: #888780; stroke-width: 0.5; stroke-dasharray: 3 3; }
+</style>
 <defs>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </marker>
-<mask id="imagine-text-gaps-mxr55d" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="920" fill="white"/><rect x="36" y="24" width="191.98333740234375" height="22" fill="black" rx="2"/><rect x="36" y="46" width="201.39999389648438" height="19" fill="black" rx="2"/><rect x="351" y="160" width="67.66666793823242" height="19" fill="black" rx="2"/><rect x="128.4250030517578" y="117" width="33.14999961853027" height="22" fill="black" rx="2"/><rect x="262.45001220703125" y="117" width="25.100000381469727" height="22" fill="black" rx="2"/><rect x="128.34165954589844" y="207" width="33.316667556762695" height="22" fill="black" rx="2"/><rect x="261.1583251953125" y="207" width="27.71666717529297" height="22" fill="black" rx="2"/><rect x="458" y="98" width="151.1999969482422" height="19" fill="black" rx="2"/><rect x="458" y="122" width="171.31666564941406" height="19" fill="black" rx="2"/><rect x="36" y="324" width="159.98333740234375" height="22" fill="black" rx="2"/><rect x="36" y="346" width="275.7833251953125" height="19" fill="black" rx="2"/><rect x="128.4250030517578" y="407" width="33.14999961853027" height="22" fill="black" rx="2"/><rect x="262.45001220703125" y="407" width="25.100000381469727" height="22" fill="black" rx="2"/><rect x="351" y="404" width="51.61666488647461" height="19" fill="black" rx="2"/><rect x="128.34165954589844" y="497" width="33.316667556762695" height="22" fill="black" rx="2"/><rect x="261.1583251953125" y="497" width="27.71666717529297" height="22" fill="black" rx="2"/><rect x="351" y="494" width="73.53333282470703" height="19" fill="black" rx="2"/><rect x="36" y="602" width="236.3333282470703" height="22" fill="black" rx="2"/><rect x="36" y="624" width="317.3166809082031" height="19" fill="black" rx="2"/><rect x="130.375" y="672.5" width="29.616666793823242" height="19" fill="black" rx="2"/><rect x="263.7833251953125" y="672.5" width="22.43333339691162" height="19" fill="black" rx="2"/><rect x="190.61666870117188" y="692" width="39.10000038146973" height="19" fill="black" rx="2"/><rect x="145.10833740234375" y="682.5" width="29.78333282470703" height="19" fill="black" rx="2"/><rect x="247.6666717529297" y="682.5" width="25.299999237060547" height="19" fill="black" rx="2"/><rect x="351" y="680" width="58.46666717529297" height="19" fill="black" rx="2"/><rect x="36" y="782" width="162.93333435058594" height="22" fill="black" rx="2"/><rect x="36" y="804" width="241.39999389648438" height="19" fill="black" rx="2"/><rect x="200.99166870117188" y="859" width="48.016666412353516" height="22" fill="black" rx="2"/><rect x="189.52499389648438" y="882.5" width="71.28333282470703" height="19" fill="black" rx="2"/><rect x="101.19999694824219" y="856" width="42.900001525878906" height="19" fill="black" rx="2"/></mask></defs>
+</defs>
 
-<!-- Step 1: The printed sheet -->
-<text x="40" y="40" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:auto">Step 1: printed sheet (front)</text>
-<text x="40" y="60" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Each sheet has a 2×2 grid of pages</text>
+<!-- Step 1: Print -->
+<text class="th" x="40" y="36">Step 1: print duplex (short edge flip)</text>
+<text class="ts" x="40" y="56">You get 2 physical sheets, each printed on both sides</text>
 
-<!-- Sheet rectangle -->
-<rect x="80" y="80" width="260" height="180" rx="4" fill="none" stroke="var(--p)" stroke-width="1" style="fill:none;stroke:rgb(250, 249, 245);color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<!-- Horizontal cut line -->
-<line x1="80" y1="170" x2="340" y2="170" stroke="var(--color-text-danger)" stroke-width="1.5" stroke-dasharray="6 4" style="fill:rgb(0, 0, 0);stroke:rgb(238, 136, 132);color:rgb(251, 251, 254);stroke-width:1.5px;stroke-dasharray:6px, 4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="355" y="174" fill="var(--color-text-danger)" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">← cut here</text>
-<!-- Vertical divider (fold line later) -->
-<line x1="210" y1="80" x2="210" y2="260" stroke="var(--s)" stroke-width="0.5" stroke-dasharray="3 3" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-dasharray:3px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Sheet 1 front -->
+<text class="ts" x="80" y="86">Sheet 1 front</text>
+<rect x="80" y="94" width="200" height="120" rx="4" fill="none" stroke="#2C2C2A" stroke-width="0.5"/>
+<line x1="80" y1="154" x2="280" y2="154" class="cut-line"/>
+<line x1="180" y1="94" x2="180" y2="214" class="fold-line"/>
+<rect x="105" y="108" width="50" height="32" rx="3" class="teal-fill" stroke-width="0.5"/><text class="ts teal-text" x="130" y="128" text-anchor="middle" dominant-baseline="central">16</text>
+<rect x="205" y="108" width="50" height="32" rx="3" class="teal-fill" stroke-width="0.5"/><text class="ts teal-text" x="230" y="128" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="105" y="168" width="50" height="32" rx="3" class="purple-fill" stroke-width="0.5"/><text class="ts purple-text" x="130" y="188" text-anchor="middle" dominant-baseline="central">12</text>
+<rect x="205" y="168" width="50" height="32" rx="3" class="purple-fill" stroke-width="0.5"/><text class="ts purple-text" x="230" y="188" text-anchor="middle" dominant-baseline="central">5</text>
 
-<!-- Page labels -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="100" y="100" width="90" height="50" rx="4" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><text x="145" y="128" text-anchor="middle" dominant-baseline="central" style="fill:rgb(159, 225, 203);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 16</text></g>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="230" y="100" width="90" height="50" rx="4" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><text x="275" y="128" text-anchor="middle" dominant-baseline="central" style="fill:rgb(159, 225, 203);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 1</text></g>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="100" y="190" width="90" height="50" rx="4" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><text x="145" y="218" text-anchor="middle" dominant-baseline="central" style="fill:rgb(206, 203, 246);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 12</text></g>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="230" y="190" width="90" height="50" rx="4" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/><text x="275" y="218" text-anchor="middle" dominant-baseline="central" style="fill:rgb(206, 203, 246);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 5</text></g>
+<!-- Sheet 1 back -->
+<text class="ts" x="380" y="86">Sheet 1 back</text>
+<rect x="380" y="94" width="200" height="120" rx="4" fill="none" stroke="#2C2C2A" stroke-width="0.5"/>
+<line x1="380" y1="154" x2="580" y2="154" class="cut-line"/>
+<line x1="480" y1="94" x2="480" y2="214" class="fold-line"/>
+<rect x="405" y="108" width="50" height="32" rx="3" class="teal-fill" stroke-width="0.5"/><text class="ts teal-text" x="430" y="128" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="505" y="108" width="50" height="32" rx="3" class="teal-fill" stroke-width="0.5"/><text class="ts teal-text" x="530" y="128" text-anchor="middle" dominant-baseline="central">15</text>
+<rect x="405" y="168" width="50" height="32" rx="3" class="purple-fill" stroke-width="0.5"/><text class="ts purple-text" x="430" y="188" text-anchor="middle" dominant-baseline="central">6</text>
+<rect x="505" y="168" width="50" height="32" rx="3" class="purple-fill" stroke-width="0.5"/><text class="ts purple-text" x="530" y="188" text-anchor="middle" dominant-baseline="central">11</text>
 
-<!-- Color legend -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="440" y="100" width="14" height="14" rx="3" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/></g>
-<text x="462" y="112" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Top half (outer signature)</text>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="440" y="124" width="14" height="14" rx="3" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/></g>
-<text x="462" y="136" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Bottom half (inner signature)</text>
+<!-- Sheet 2 front -->
+<text class="ts" x="80" y="244">Sheet 2 front</text>
+<rect x="80" y="252" width="200" height="120" rx="4" fill="none" stroke="#2C2C2A" stroke-width="0.5"/>
+<line x1="80" y1="312" x2="280" y2="312" class="cut-line"/>
+<line x1="180" y1="252" x2="180" y2="372" class="fold-line"/>
+<rect x="105" y="266" width="50" height="32" rx="3" class="coral-fill" stroke-width="0.5"/><text class="ts coral-text" x="130" y="286" text-anchor="middle" dominant-baseline="central">14</text>
+<rect x="205" y="266" width="50" height="32" rx="3" class="coral-fill" stroke-width="0.5"/><text class="ts coral-text" x="230" y="286" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="105" y="326" width="50" height="32" rx="3" class="pink-fill" stroke-width="0.5"/><text class="ts pink-text" x="130" y="346" text-anchor="middle" dominant-baseline="central">10</text>
+<rect x="205" y="326" width="50" height="32" rx="3" class="pink-fill" stroke-width="0.5"/><text class="ts pink-text" x="230" y="346" text-anchor="middle" dominant-baseline="central">7</text>
 
-<!-- Arrow to step 2 -->
-<line x1="210" y1="272" x2="210" y2="310" stroke="var(--s)" stroke-width="1" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Sheet 2 back -->
+<text class="ts" x="380" y="244">Sheet 2 back</text>
+<rect x="380" y="252" width="200" height="120" rx="4" fill="none" stroke="#2C2C2A" stroke-width="0.5"/>
+<line x1="380" y1="312" x2="580" y2="312" class="cut-line"/>
+<line x1="480" y1="252" x2="480" y2="372" class="fold-line"/>
+<rect x="405" y="266" width="50" height="32" rx="3" class="coral-fill" stroke-width="0.5"/><text class="ts coral-text" x="430" y="286" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="505" y="266" width="50" height="32" rx="3" class="coral-fill" stroke-width="0.5"/><text class="ts coral-text" x="530" y="286" text-anchor="middle" dominant-baseline="central">13</text>
+<rect x="405" y="326" width="50" height="32" rx="3" class="pink-fill" stroke-width="0.5"/><text class="ts pink-text" x="430" y="346" text-anchor="middle" dominant-baseline="central">8</text>
+<rect x="505" y="326" width="50" height="32" rx="3" class="pink-fill" stroke-width="0.5"/><text class="ts pink-text" x="530" y="346" text-anchor="middle" dominant-baseline="central">9</text>
 
-<!-- Step 2: Cut in half -->
-<text x="40" y="340" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:auto">Step 2: cut horizontally</text>
-<text x="40" y="360" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">You now have two half-sheets per printed sheet</text>
+<!-- Legend -->
+<rect x="80" y="392" width="12" height="12" rx="2" class="teal-fill" stroke-width="0.5"/>
+<text class="ts" x="98" y="403">Sheet 1 top</text>
+<rect x="190" y="392" width="12" height="12" rx="2" class="purple-fill" stroke-width="0.5"/>
+<text class="ts" x="208" y="403">Sheet 1 bottom</text>
+<rect x="320" y="392" width="12" height="12" rx="2" class="coral-fill" stroke-width="0.5"/>
+<text class="ts" x="338" y="403">Sheet 2 top</text>
+<rect x="430" y="392" width="12" height="12" rx="2" class="pink-fill" stroke-width="0.5"/>
+<text class="ts" x="448" y="403">Sheet 2 bottom</text>
 
-<!-- Top half -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<rect x="80" y="380" width="260" height="70" rx="4" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="145" y="418" text-anchor="middle" dominant-baseline="central" style="fill:rgb(159, 225, 203);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 16</text>
-<text x="275" y="418" text-anchor="middle" dominant-baseline="central" style="fill:rgb(159, 225, 203);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 1</text>
+<!-- Arrow -->
+<line x1="340" y1="420" x2="340" y2="455" class="arrow-line" marker-end="url(#arrow)"/>
+
+<!-- Step 2: Cut -->
+<text class="th" x="40" y="480">Step 2: cut each sheet horizontally</text>
+<text class="ts" x="40" y="500">You now have 4 half-sheets (each has a front and back)</text>
+
+<rect x="50" y="520" width="130" height="44" rx="4" class="teal-fill" stroke-width="0.5"/>
+<text class="ts teal-text" x="115" y="536" text-anchor="middle" dominant-baseline="central">16 | 1</text>
+<text class="ts teal-text" x="115" y="554" text-anchor="middle" dominant-baseline="central" opacity="0.6">(back: 2 | 15)</text>
+
+<rect x="195" y="520" width="130" height="44" rx="4" class="coral-fill" stroke-width="0.5"/>
+<text class="ts coral-text" x="260" y="536" text-anchor="middle" dominant-baseline="central">14 | 3</text>
+<text class="ts coral-text" x="260" y="554" text-anchor="middle" dominant-baseline="central" opacity="0.6">(back: 4 | 13)</text>
+
+<rect x="340" y="520" width="130" height="44" rx="4" class="purple-fill" stroke-width="0.5"/>
+<text class="ts purple-text" x="405" y="536" text-anchor="middle" dominant-baseline="central">12 | 5</text>
+<text class="ts purple-text" x="405" y="554" text-anchor="middle" dominant-baseline="central" opacity="0.6">(back: 6 | 11)</text>
+
+<rect x="485" y="520" width="130" height="44" rx="4" class="pink-fill" stroke-width="0.5"/>
+<text class="ts pink-text" x="550" y="536" text-anchor="middle" dominant-baseline="central">10 | 7</text>
+<text class="ts pink-text" x="550" y="554" text-anchor="middle" dominant-baseline="central" opacity="0.6">(back: 8 | 9)</text>
+
+<!-- Arrow -->
+<line x1="340" y1="580" x2="340" y2="615" class="arrow-line" marker-end="url(#arrow)"/>
+
+<!-- Step 3: Fold each half-sheet -->
+<text class="th" x="40" y="640">Step 3: fold each half-sheet in half</text>
+<text class="ts" x="40" y="660">Each becomes a 4-page mini-signature</text>
+
+<rect x="60" y="680" width="60" height="80" rx="3" class="teal-fill" stroke-width="0.5"/>
+<text class="ts teal-text" x="90" y="706" text-anchor="middle" dominant-baseline="central">p1</text>
+<text class="ts teal-text" x="90" y="724" text-anchor="middle" dominant-baseline="central" opacity="0.6">front</text>
+<text class="ts" x="90" y="770" text-anchor="middle">A</text>
+
+<rect x="180" y="680" width="60" height="80" rx="3" class="coral-fill" stroke-width="0.5"/>
+<text class="ts coral-text" x="210" y="706" text-anchor="middle" dominant-baseline="central">p3</text>
+<text class="ts coral-text" x="210" y="724" text-anchor="middle" dominant-baseline="central" opacity="0.6">front</text>
+<text class="ts" x="210" y="770" text-anchor="middle">B</text>
+
+<rect x="300" y="680" width="60" height="80" rx="3" class="purple-fill" stroke-width="0.5"/>
+<text class="ts purple-text" x="330" y="706" text-anchor="middle" dominant-baseline="central">p5</text>
+<text class="ts purple-text" x="330" y="724" text-anchor="middle" dominant-baseline="central" opacity="0.6">front</text>
+<text class="ts" x="330" y="770" text-anchor="middle">C</text>
+
+<rect x="420" y="680" width="60" height="80" rx="3" class="pink-fill" stroke-width="0.5"/>
+<text class="ts pink-text" x="450" y="706" text-anchor="middle" dominant-baseline="central">p7</text>
+<text class="ts pink-text" x="450" y="724" text-anchor="middle" dominant-baseline="central" opacity="0.6">front</text>
+<text class="ts" x="450" y="770" text-anchor="middle">D</text>
+
+<text class="ts" x="530" y="710">Each signature contains</text>
+<text class="ts" x="530" y="728">4 pages when opened</text>
+
+<!-- Arrow -->
+<line x1="340" y1="790" x2="340" y2="825" class="arrow-line" marker-end="url(#arrow)"/>
+
+<!-- Step 4: Nest -->
+<text class="th" x="40" y="850">Step 4: nest signatures (D inside C inside B inside A)</text>
+<text class="ts" x="40" y="870">Innermost = D (pages 7-10), outermost = A (pages 1-2, 15-16)</text>
+
+<!-- Nested view -->
+<g transform="translate(120,890)">
+<!-- Outermost A -->
+<path d="M0,0 L0,80 L4,80 L4,0 Z" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5" opacity="0.8"/>
+<path d="M196,0 L196,80 L200,80 L200,0 Z" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5" opacity="0.8"/>
+<rect x="0" y="0" width="200" height="80" rx="3" fill="none" stroke="#0F6E56" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" x="100" y="-8" text-anchor="middle" fill="#085041">A: pages 16, 1, 2, 15</text>
+
+<!-- B -->
+<path d="M16,8 L16,72 L20,72 L20,8 Z" fill="#F0997B" stroke="#993C1D" stroke-width="0.5" opacity="0.8"/>
+<path d="M180,8 L180,72 L184,72 L184,8 Z" fill="#F0997B" stroke="#993C1D" stroke-width="0.5" opacity="0.8"/>
+<rect x="16" y="8" width="168" height="64" rx="3" fill="none" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" x="100" y="24" text-anchor="middle" fill="#712B13">B: pages 14, 3, 4, 13</text>
+
+<!-- C -->
+<path d="M32,18 L32,62 L36,62 L36,18 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.5" opacity="0.8"/>
+<path d="M164,18 L164,62 L168,62 L168,18 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.5" opacity="0.8"/>
+<rect x="32" y="18" width="136" height="44" rx="3" fill="none" stroke="#534AB7" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" x="100" y="42" text-anchor="middle" fill="#3C3489">C: pages 12, 5, 6, 11</text>
+
+<!-- Innermost D -->
+<path d="M48,28 L48,52 L52,52 L52,28 Z" fill="#ED93B1" stroke="#993556" stroke-width="0.5" opacity="0.8"/>
+<path d="M148,28 L148,52 L152,52 L152,28 Z" fill="#ED93B1" stroke="#993556" stroke-width="0.5" opacity="0.8"/>
+<rect x="48" y="28" width="104" height="24" rx="3" fill="none" stroke="#993556" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="ts" x="100" y="56" text-anchor="middle" fill="#72243E">D: pages 10, 7, 8, 9</text>
 </g>
-<line x1="210" y1="380" x2="210" y2="450" stroke="var(--s)" stroke-width="0.5" stroke-dasharray="3 3" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-dasharray:3px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="355" y="418" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">top half</text>
 
-<!-- Bottom half -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<rect x="80" y="470" width="260" height="70" rx="4" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="145" y="508" text-anchor="middle" dominant-baseline="central" style="fill:rgb(206, 203, 246);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 12</text>
-<text x="275" y="508" text-anchor="middle" dominant-baseline="central" style="fill:rgb(206, 203, 246);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">p 5</text>
-</g>
-<line x1="210" y1="470" x2="210" y2="540" stroke="var(--s)" stroke-width="0.5" stroke-dasharray="3 3" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-dasharray:3px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="355" y="508" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">bottom half</text>
+<!-- Staple indicators -->
+<circle cx="120" cy="930" r="3" fill="#888780"/>
+<text class="ts" x="108" y="932" text-anchor="end">staple</text>
 
-<!-- Arrow to step 3 -->
-<line x1="210" y1="555" x2="210" y2="590" stroke="var(--s)" stroke-width="1" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Arrow -->
+<line x1="340" y1="990" x2="340" y2="1020" class="arrow-line" marker-end="url(#arrow)"/>
 
-<!-- Step 3: Nest and fold -->
-<text x="40" y="618" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:auto">Step 3: nest inner inside outer, fold</text>
-<text x="40" y="638" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Inner signature sits inside outer; fold all in half together</text>
+<!-- Step 5: Final -->
+<text class="th" x="40" y="1048">Step 5: staple spine, done</text>
+<text class="ts" x="40" y="1068">Pages read 1, 2, 3 ... 16 like a normal book</text>
 
-<!-- Outer signature (teal) -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<rect x="80" y="660" width="260" height="60" rx="4" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="145" y="682" text-anchor="middle" dominant-baseline="central" style="fill:rgb(93, 202, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">p 16</text>
-<text x="275" y="682" text-anchor="middle" dominant-baseline="central" style="fill:rgb(93, 202, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">p 1</text>
-<text x="210" y="706" text-anchor="middle" style="fill:rgb(93, 202, 165);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">outer</text>
-</g>
+<rect x="220" y="1086" width="110" height="80" rx="4" class="gray-fill" stroke-width="1"/>
+<text class="th" x="275" y="1118" text-anchor="middle" dominant-baseline="central">Page 1</text>
+<text class="ts" x="275" y="1140" text-anchor="middle" dominant-baseline="central">front cover</text>
 
-<!-- Inner signature (purple, slightly inset) -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<rect x="100" y="672" width="220" height="36" rx="4" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="160" y="692" text-anchor="middle" dominant-baseline="central" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">p 14</text>
-<text x="260" y="692" text-anchor="middle" dominant-baseline="central" style="fill:rgb(175, 169, 236);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">p 3</text>
-</g>
+<circle cx="220" cy="1108" r="2.5" fill="#888780"/>
+<circle cx="220" cy="1132" r="2.5" fill="#888780"/>
+<text class="ts" x="208" y="1122" text-anchor="end">spine</text>
 
-<!-- Fold arrow -->
-<line x1="210" y1="660" x2="210" y2="720" stroke="var(--s)" stroke-width="0.5" stroke-dasharray="3 3" mask="url(#imagine-text-gaps-mxr55d)" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:0.5px;stroke-dasharray:3px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="355" y="694" fill="var(--color-text-warning)" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">fold here</text>
-<path d="M355 700 Q370 730 355 740" fill="none" stroke="var(--color-text-warning)" stroke-width="1" marker-end="url(#arrow)" style="fill:none;stroke:rgb(209, 160, 65);color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Arrow to step 4 -->
-<line x1="210" y1="735" x2="210" y2="770" stroke="var(--s)" stroke-width="1" marker-end="url(#arrow)" style="fill:rgb(0, 0, 0);stroke:rgb(194, 192, 182);color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-
-<!-- Step 4: Final booklet -->
-<text x="40" y="798" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:auto">Step 4: staple the spine</text>
-<text x="40" y="818" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">Front cover = page 1, back cover = page 16</text>
-
-<!-- Folded booklet representation -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<rect x="160" y="838" width="130" height="70" rx="4" stroke-width="1" style="fill:rgb(68, 68, 65);stroke:rgb(180, 178, 169);color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="225" y="870" text-anchor="middle" dominant-baseline="central" style="fill:rgb(211, 209, 199);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:central">Page 1</text>
-<text x="225" y="892" text-anchor="middle" dominant-baseline="central" style="fill:rgb(180, 178, 169);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:central">front cover</text>
-</g>
-
-<!-- Staple indicators on spine -->
-<circle cx="160" cy="856" r="2.5" fill="var(--s)" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<circle cx="160" cy="878" r="2.5" fill="var(--s)" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="140" y="870" text-anchor="end" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(251, 251, 254);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:end;dominant-baseline:auto">staple</text>
+<rect x="350" y="1086" width="110" height="80" rx="4" class="gray-fill" stroke-width="1"/>
+<text class="th" x="405" y="1118" text-anchor="middle" dominant-baseline="central">Page 16</text>
+<text class="ts" x="405" y="1140" text-anchor="middle" dominant-baseline="central">back cover</text>
 
 </svg>
